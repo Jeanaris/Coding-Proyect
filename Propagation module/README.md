@@ -10,3 +10,5 @@ The module have an order of the files:
 
 The user can perform only the simulations by running only the "Simulation.py" file
 or run the simulations and do their respective plotting by runnung only the "Plotting.py" file
+
+Important: If the user perform changes in a file, the code in the same file needs to be runned to se its further effects

@@ -5,7 +5,7 @@ from Spacecraft import *
 # Simulation
 
 # Read and load debris data from a csv file
-debris_file_path = r"CSV's\Punctual debris.csv"
+debris_file_path = r"C:\Users\kmilo\OneDrive\Escritorio\Final proyect\Coding-Proyect\CSV's\Null debris.csv"
 debris = read_debris(debris_file_path)
 
 # Simulation parameters (Adjust depending on requirements)
@@ -16,10 +16,9 @@ safe_distance = 1000.0  # Minimun safe distance between the spacecraft and the d
 # Creating arrays with the positions of the spacecraft, these arrays will be updated for future ploting
 time = 0.0 # Initial time
 #Input the initial positon of the spacecraft
-x_position = [6000]
-y_position = [0]
-z_position = [0]
-
+x_position = [float(SC.GetField("X"))]
+y_position = [float(SC.GetField("Y"))]
+z_position = [float(SC.GetField("Z"))]
 # Starting the propagation simulation
 print("Starting simulation...")
 for x in range(60):  # Adjust number of steps, in this case will be 60
