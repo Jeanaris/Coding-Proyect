@@ -5,7 +5,7 @@ from Spacecraft import *
 # Simulation
 
 # Read debris data from a csv file
-debris_file_path = r"csv\debris_coordinates.csv"
+debris_file_path = r"CSV's\debris_coordinates.csv"
 debris = read_debris(debris_file_path)
 
 # Simulation parameters
