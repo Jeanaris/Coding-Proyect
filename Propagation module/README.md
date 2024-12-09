@@ -1,5 +1,5 @@
 The propagation module have the tast to propagate a spacecraft using GMAT,
-and with python use algorithms avoid possible collisions with space debris
+and with python use algorithms to avoid possible collisions with space debris
 
 The module have an order of the files:
 0. "load_gmat.py" The GMAT API startup file
