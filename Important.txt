@@ -1,0 +1,4 @@
+Important to have installed General Mission Assistant Tool (GMAT)
+and to have configured the api through the load_gmat.py file
+
+These files works with python 3.9
