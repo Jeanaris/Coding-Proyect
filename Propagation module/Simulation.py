@@ -4,11 +4,11 @@ from Spacecraft import *
 
 # Simulation
 
-# Read debris data from a csv file
-debris_file_path = r"C:\Users\kmilo\OneDrive\Escritorio\Final proyect\Coding-Proyect\CSV's\debris_coordinates.csv"
+# Read and load debris data from a csv file
+debris_file_path = r"CSV's\Punctual debris.csv"
 debris = read_debris(debris_file_path)
 
-# Simulation parameters
+# Simulation parameters (Adjust depending on requirements)
 step = 100.0  # Step between iteration (seconds)
 safe_distance = 1000.0  # Minimun safe distance between the spacecraft and the debris (kilometers)
 
@@ -76,7 +76,7 @@ for x in range(60):  # Adjust number of steps, in this case will be 60
             
             # Lets apply another delta-V after a while to get to an orbit similar to the previous one
             # Propagate the spacecraft a while
-            for x in range(100):  # Ajust the number of steps taken, here we do 100
+            for x in range(50):  # Ajust the number of steps taken, here we do 100
                 #Perform a step
                 IG.Step(step)
                 time += step
