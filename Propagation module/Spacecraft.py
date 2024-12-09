@@ -3,7 +3,7 @@ from load_gmat import *
 # Creating the spacecraft and its future propagation using GMAT
 
 # Initial parameters of the spacecraft
-SC = gmat.Construct("Spacecraft", "La Flaqui Monster 3000")
+SC = gmat.Construct("Spacecraft", "Amaltea")
 SC.SetField("DateFormat", "UTCGregorian")
 SC.SetField("Epoch", "24 Dec 2024 12:00:00.000")
 SC.SetField("CoordinateSystem", "EarthMJ2000Eq")
