@@ -5,12 +5,12 @@ from Spacecraft import *
 # Simulation
 
 # Read and load debris data from a csv file
-debris_file_path = r"C:\Users\kmilo\OneDrive\Escritorio\Final proyect\Coding-Proyect\CSV's\Null debris.csv"
+debris_file_path = r"C:\Users\kmilo\OneDrive\Escritorio\Final proyect\Coding-Proyect\CSV's\debris_coordinates_shell.csv"
 debris = read_debris(debris_file_path)
 
 # Simulation parameters (Adjust depending on requirements)
 step = 100.0  # Step between iteration (seconds)
-safe_distance = 1000.0  # Minimun safe distance between the spacecraft and the debris (kilometers)
+safe_distance = 500.0  # Minimun safe distance between the spacecraft and the debris (kilometers)
 
 # Variables during the simulation
 # Creating arrays with the positions of the spacecraft, these arrays will be updated for future ploting
